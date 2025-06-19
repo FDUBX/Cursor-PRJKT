@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FONTAINE CONVERTER - Azure Blob</title>
+    <link rel="icon" type="image/png" href="assets/LogoMillSquare.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #2e2e2e;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        body::before {
+            content: "🥨";
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1500px;
+            opacity: 0.5;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            opacity: 0.8;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .controls {
+            margin: 1rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+        .slider-container, .width-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            width: 100%;
+            max-width: 400px;
+        }
+        .width-container input[type="number"] {
+            width: 80px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .filename-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            width: 100%;
+            max-width: 400px;
+        }
+        .filename-container input[type="text"] {
+            flex: 1;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .preview-container {
+            margin: 1rem 0;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: nowrap;
+            width: 100%;
+        }
+        .preview-box {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            border-radius: 4px;
+            width: 320px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f8f8;
+            overflow: hidden;
+        }
+        .preview-box img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            display: none;
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+        }
+        .preview-box img.visible {
+            display: block;
+        }
+        #originalPreview {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+        }
+        #bitmapPreview {
+            width: 320px;
+            height: 500px;
+            object-fit: contain;
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+        }
+        .preview-label {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .preview-placeholder {
+            color: #999;
+            font-size: 1.2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .preview-placeholder.hidden {
+            display: none;
+        }
+        input[type="range"] {
+            width: 200px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FONTAINE CONVERTER - Azure Blob</h1>
+        <p>Put your Logo in the Fountain</p>
+        
+        <div class="controls">
+            <input type="file" id="fileInput" accept="image/*">
+            
+            <div class="width-container">
+                <label for="targetWidth">Largeur en pixels:</label>
+                <input type="range" id="targetWidth" min="1" max="320" value="300">
+                <span id="widthValue">300</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="threshold">Seuil de luminosité:</label>
+                <input type="range" id="threshold" min="0" max="255" value="128">
+                <span id="thresholdValue">128</span>
+            </div>
+
+            <div class="filename-container">
+                <label for="filename">Nom du fichier:</label>
+                <input type="text" id="filename" placeholder="mon_logo" value="bitmap">
+            </div>
+        </div>
+
+        <div class="preview-container">
+            <div class="preview-box">
+                <div class="preview-label">Original</div>
+                <div class="preview-placeholder">Aucune image sélectionnée</div>
+                <img id="originalPreview" src="" alt="Original">
+            </div>
+            <div class="preview-box">
+                <div class="preview-label">Bitmap</div>
+                <div class="preview-placeholder">Aucune image sélectionnée</div>
+                <img id="bitmapPreview" src="" alt="Bitmap">
+            </div>
+        </div>
+
+        <button id="uploadBtn" style="display: none;">Uploader vers Azure Blob Storage</button>
+    </div>
+    <script src="bitmap_blob.js"></script>
+</body>
+</html> 

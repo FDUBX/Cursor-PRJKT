@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitmap-Uploader</title>
+    <link rel="shortcut icon" type="image/png" href="./LogoMillSquare.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .blob-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+        }
+        .blob-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .blob-image {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+        .blob-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .blob-name {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #333;
+            word-break: break-all;
+        }
+        .blob-date {
+            font-size: 0.8rem;
+            color: #666;
+        }
+        .blob-actions {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .btn {
+            flex: 1;
+            padding: 0.5rem;
+            border: none;
+            background: #333;
+            color: #fff;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #444;
+        }
+        .btn.delete {
+            background: #dc3545;
+        }
+        .btn.delete:hover {
+            background: #c82333;
+        }
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            font-size: 1.2rem;
+        }
+        .error {
+            text-align: center;
+            padding: 2rem;
+            color: #dc3545;
+            font-size: 1.2rem;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+                padding: 10px;
+            }
+            .blob-card {
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="index.html" class="nav-link">Convertisseur Bitmap</a>
+        <a href="blob_explorer.html" class="nav-link active">Explorateur de Fichiers</a>
+    </div>
+    <div class="logo-container">
+        <img src="./LogoMillSquare.png" alt="Logo Mill" class="main-logo">
+    </div>
+    <div class="container">
+        <h1>FONTAINE BLOB EXPLORER</h1>
+        <div id="blobGrid" class="grid">
+            <!-- Les cartes de blobs seront insérées ici -->
+        </div>
+        <div id="loading" class="loading" style="display: none;">
+            Chargement des fichiers...
+        </div>
+        <div id="error" class="error" style="display: none;"></div>
+    </div>
+    <script src="blob_explorer.js"></script>
+</body>
+</html> 

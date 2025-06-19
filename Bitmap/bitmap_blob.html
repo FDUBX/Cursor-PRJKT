@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FONTAINE BITMAP CONVERTER</title>
+    <link rel="icon" type="image/png" href="assets/LogoMillSquare.png">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #e0e0e0;
+            color: #333;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #f5f5f5 0%, #e0e0e0 100%);
+            z-index: 0;
+            pointer-events: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        .nav-bar {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 0;
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+        }
+        .nav-link {
+            color: #333;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: #333;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .nav-link.active {
+            font-weight: bold;
+        }
+        .nav-link.active::after {
+            width: 100%;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+            font-size: 2rem;
+        }
+        .converter-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 0;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            margin-bottom: 2rem;
+        }
+        .converter-container:hover {
+            border-color: rgba(0, 0, 0, 0.25);
+        }
+        .preview-container {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .preview-box {
+            flex: 1;
+            min-height: 500px;
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            padding: 1rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .preview-box.bitmap-box {
+            height: 500px;
+        }
+        .preview-box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            display: none;
+        }
+        #bitmapPreview {
+            width: 300px !important;
+            height: 300px !important;
+            object-fit: contain;
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 10px;
+        }
+        .preview-box img.visible {
+            display: block;
+        }
+        .preview-placeholder {
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+        .preview-placeholder i {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #999;
+        }
+        .preview-placeholder.hidden {
+            display: none;
+        }
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        label {
+            color: #333;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+        input[type="file"] {
+            padding: 1rem;
+            border: 2px dashed rgba(0, 0, 0, 0.15);
+            border-radius: 0;
+            background: rgba(255, 255, 255, 0.7);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        input[type="file"]:hover {
+            border-color: rgba(0, 0, 0, 0.25);
+            background: rgba(255, 255, 255, 0.8);
+        }
+        input[type="range"] {
+            width: 100%;
+            height: 4px;
+            background: rgba(0, 0, 0, 0.15);
+            border-radius: 2px;
+            outline: none;
+            -webkit-appearance: none;
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 16px;
+            height: 16px;
+            background: #333;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+        }
+        input[type="text"] {
+            padding: 0.8rem;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 0;
+            background: rgba(255, 255, 255, 0.7);
+            color: #333;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: rgba(0, 0, 0, 0.25);
+            background: rgba(255, 255, 255, 0.8);
+        }
+        .btn {
+            padding: 1rem 2rem;
+            border: none;
+            background: #333;
+            color: #fff;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 0;
+        }
+        .btn:hover {
+            background: #444;
+            transform: translateY(-2px);
+        }
+        .btn:active {
+            transform: translateY(0);
+        }
+        #urlDisplay {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 0;
+        }
+        #urlDisplay p {
+            margin: 0 0 0.5rem 0;
+            color: #333;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+        #publicUrl {
+            color: #4CAF50;
+            text-decoration: none;
+            word-break: break-all;
+            font-size: 0.85rem;
+        }
+        #publicUrl:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .preview-container {
+                flex-direction: column;
+            }
+            .converter-container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="bitmap_blob.html" class="nav-link active">Convertisseur Bitmap</a>
+        <a href="blob_explorer.html" class="nav-link">Explorateur de Fichiers</a>
+    </div>
+    <div class="container">
+        <h1>FONTAINE BITMAP CONVERTER</h1>
+        <p>Put your Logo in the Fountain</p>
+        
+        <div class="controls">
+            <input type="file" id="fileInput" accept="image/*">
+            
+            <div class="width-container">
+                <label for="targetWidth">Largeur en pixels:</label>
+                <input type="range" id="targetWidth" min="1" max="320" value="300">
+                <span id="widthValue">300</span>
+            </div>
+
+            <div class="slider-container">
+                <label for="threshold">Seuil de luminosité:</label>
+                <input type="range" id="threshold" min="0" max="255" value="128">
+                <span id="thresholdValue">128</span>
+            </div>
+
+            <div class="filename-container">
+                <label for="filename">Nom du fichier:</label>
+                <input type="text" id="filename" placeholder="mon_logo" value="bitmap">
+            </div>
+        </div>
+
+        <div class="preview-container">
+            <div class="preview-box">
+                <div class="preview-label">Original</div>
+                <div class="preview-placeholder">
+                    <span>Aucune image sélectionnée</span>
+                    <span style="font-size: 2em;">📷</span>
+                </div>
+                <img id="originalPreview" src="" alt="Original">
+            </div>
+            <div class="preview-box bitmap-box">
+                <div class="preview-label">Bitmap</div>
+                <div class="preview-placeholder">
+                    <span>Aucune image sélectionnée</span>
+                    <span style="font-size: 2em;">🖼️</span>
+                </div>
+                <img id="bitmapPreview" src="" alt="Bitmap">
+            </div>
+        </div>
+
+        <button id="uploadBtn" style="display: none;">Uploader vers Azure Blob Storage</button>
+        <div id="urlDisplay">
+            <p>URL publique :</p>
+            <a id="publicUrl" href="#" target="_blank"></a>
+        </div>
+    </div>
+    <script src="bitmap_blob.js"></script>
+</body>
+</html> 
