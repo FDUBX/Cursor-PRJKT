@@ -1,0 +1,45 @@
+using System;
+using System.Net;
+using System.Net.Sockets;
+
+public class WakeOnLan
+{
+    public static void SendWOLPacket(byte[] macAddress)
+    {
+        // WOL 'magic' packet is sent over UDP
+        using (UdpClient client = new UdpClient())
+        {
+            // Send to: 255.255.255.255:9 over UDP (port number 9: Discard)
+            client.Connect(IPAddress.Broadcast, 9);
+
+            // Two parts to a 'magic' packet:
+            // First is 0xFFFFFFFFFFFF
+            // Second is 16 * MACAddress
+            byte[] packet = new byte[17 * 6];
+
+            // Set to: 0xFFFFFFFFFFFF
+            for (int i = 0; i < 6; i++)
+            {
+                packet[i] = 0xFF;
+            }
+
+            // Set to: 16 * MACAddress
+            for (int i = 1; i <= 16; i++)
+            {
+                for (int j = 0; j < 6; j++)
+                {
+                    packet[i * 6 + j] = macAddress[j];
+                }
+            }
+
+            // Send WOL 'magic' packet
+            client.Send(packet, packet.Length);
+        }
+    }
+
+    public static void Main()
+    {
+        byte[] macAddress = new byte[] { 0x80, 0x1f, 0x12, 0x7b, 0x75, 0xb9 };
+        SendWOLPacket(macAddress);
+    }
+}

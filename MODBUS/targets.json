@@ -1,0 +1,507 @@
+[
+    {
+        "name": "E0-N-PAC-4200",
+        "address": "10.133.4.228"
+    },
+    {
+        "name": "E0-S-PAC-4200",
+        "address": "10.133.4.229"
+    },
+    {
+        "name": "E1-N-PAC-4200",
+        "address": "10.133.4.230"
+    },
+    {
+        "name": "E1-S-PAC-4200",
+        "address": "10.133.4.231"
+    },
+    {
+        "name": "E2-N-PAC-4200",
+        "address": "10.133.4.232"
+    },
+    {
+        "name": "E2-S-PAC-4200",
+        "address": "10.133.4.233"
+    },
+    {
+        "name": "E3-N-PAC-4200",
+        "address": "10.133.4.234"
+    },
+    {
+        "name": "E3-S-PAC-4200",
+        "address": "10.133.4.235"
+    },
+    {
+        "name": "E4-N-PAC-4200",
+        "address": "10.133.4.236"
+    },
+    {
+        "name": "E4-S-PAC-4200",
+        "address": "10.133.4.237"
+    },
+    {
+        "name": "E5-N-PAC-4200",
+        "address": "10.133.4.238"
+    },
+    {
+        "name": "E5-S-PAC-4200",
+        "address": "10.133.4.239"
+    },
+    {
+        "name": "E6-N-PAC-4200",
+        "address": "10.133.4.240"
+    },
+    {
+        "name": "E6-S-PAC-4200",
+        "address": "10.133.4.241"
+    },
+    {
+        "name": "E7-N-PAC-4200",
+        "address": "10.133.4.242"
+    },
+    {
+        "name": "E7-S-PAC-4200",
+        "address": "10.133.4.243"
+    },
+    {
+        "name": "E8-N-PAC-4200",
+        "address": "10.133.4.244"
+    },
+    {
+        "name": "E8-S-PAC-4200",
+        "address": "10.133.4.245"
+    },
+    {
+        "name": "Cuisine club",
+        "address": "10.133.4.193"
+    },
+    {
+        "name": "Cuisine et restaurants E0",
+        "address": "10.133.4.251"
+    },
+    {
+        "name": "Dépôt restaurant S3",
+        "address": "10.133.4.252"
+    },
+    {
+        "name": "Club Force S1 / S2",
+        "address": "10.133.4.199"
+    },
+    {
+        "name": "Data center A",
+        "address": "10.133.4.217"
+    },
+    {
+        "name": "Data center B",
+        "address": "10.133.4.214"
+    },
+    {
+        "name": "Chargeur Voiture Introduction",
+        "address": "10.133.4.220"
+    },
+    {
+        "name": "Pompe absorption",
+        "address": "10.133.4.205",
+        "slave_id": 1
+    },
+    {
+        "name": "Monte charges Nord",
+        "address": "10.133.4.205",
+        "slave_id": 2
+    },
+    {
+        "name": "Ascenseur 02 Nord",
+        "address": "10.133.4.205",
+        "slave_id": 3
+    },
+    {
+        "name": "Ascenseur 03 Nord",
+        "address": "10.133.4.205",
+        "slave_id": 4
+    },
+    {
+        "name": "Ascenseur 04 Nord",
+        "address": "10.133.4.205",
+        "slave_id": 5
+    },
+    {
+        "name": "Ascenseur 05 Nord",
+        "address": "10.133.4.205",
+        "slave_id": 6
+    },
+    {
+        "name": "Ventilation toiture Nord",
+        "address": "10.133.4.205",
+        "slave_id": 7
+    },
+    {
+        "name": "Station de lavage",
+        "address": "10.133.4.207",
+        "slave_id": 2
+    },
+    {
+        "name": "Ascenseur 6 Sud",
+        "address": "10.133.4.210",
+        "slave_id": 2
+    },
+    {
+        "name": "Ascenseur 7 Sud",
+        "address": "10.133.4.210",
+        "slave_id": 3
+    },
+    {
+        "name": "Ascenseur 8 Sud",
+        "address": "10.133.4.210",
+        "slave_id": 4
+    },
+    {
+        "name": "Ascenseur 9 Sud",
+        "address": "10.133.4.210",
+        "slave_id": 5
+    },
+    {
+        "name": "Ventilation toiture Sud",
+        "address": "10.133.4.210",
+        "slave_id": 6
+    },
+    {
+        "name": "Monte charges Sud",
+        "address": "10.133.4.211",
+        "slave_id": 1
+    },
+    {
+        "name": "Pompe Turbocor",
+        "address": "10.133.4.212",
+        "slave_id": 2
+    },
+    {
+        "name": "Fontaine",
+        "address": "10.133.4.213",
+        "slave_id": 3
+    },
+    {
+        "name": "Ballroom",
+        "address": "10.133.4.224",
+        "slave_id": 4
+    },
+    {
+        "name": "Cuisine Ballroom",
+        "address": "10.133.4.224",
+        "slave_id": 5
+    },
+    {
+        "name": "Pressing",
+        "address": "10.133.4.248",
+        "slave_id": 1
+    },
+    {
+        "name": "Force Auditoire",
+        "address": "10.133.4.248",
+        "slave_id": 2
+    },
+    {
+        "name": "Fitness",
+        "address": "10.133.4.248",
+        "slave_id": 3
+    },
+    {
+        "name": "COM800 204 2 Connection Interface",
+        "address": "10.133.4.204",
+        "slave_id": 2
+    },
+    {
+        "name": "TGBT Nord Sous-sol 2 02 Connection Interface",
+        "address": "10.133.4.204",
+        "slave_id": 3
+    },
+    {
+        "name": "TGBT Nord Etage 6 02 Connection Interface",
+        "address": "10.133.4.204",
+        "slave_id": 4
+    },
+    {
+        "name": "TGBT Sud Sous-sol 1 02 Connection Interface",
+        "address": "10.133.4.205",
+        "slave_id": 8
+    },
+    {
+        "name": "Socle Connection Interface",
+        "address": "10.133.4.206",
+        "slave_id": 1
+    },
+    {
+        "name": "COM800 206 2 Connection Interface",
+        "address": "10.133.4.206",
+        "slave_id": 2
+    },
+    {
+        "name": "Petite Distribution_1 Connection Interface",
+        "address": "10.133.4.206",
+        "slave_id": 3
+    },
+    {
+        "name": "Petite Distribution_2 Connection Interface",
+        "address": "10.133.4.206",
+        "slave_id": 4
+    },
+    {
+        "name": "Petite Distribution_3 Connection Interface",
+        "address": "10.133.4.206",
+        "slave_id": 5
+    },
+    {
+        "name": "Socle_2 Connection Interface",
+        "address": "10.133.4.206",
+        "slave_id": 6
+    },
+    {
+        "name": "Data Center A Connection Interface_7_1",
+        "address": "10.133.4.206",
+        "slave_id": 7
+    },
+    {
+        "name": "TGBT Nord Sous-sol 3 04 Connection Interface",
+        "address": "10.133.4.207",
+        "slave_id": 1
+    },
+    {
+        "name": "TGBT Nord Sous-sol 3 06 Connection Interface",
+        "address": "10.133.4.207",
+        "slave_id": 2
+    },
+    {
+        "name": "MCR Nord Sous-sol 3 04 Connection Interface",
+        "address": "10.133.4.207",
+        "slave_id": 3
+    },
+    {
+        "name": "MCR Nord Sous-sol 3 05 Connection Interface",
+        "address": "10.133.4.207",
+        "slave_id": 4
+    },
+    {
+        "name": "TGBT Sud Etage 2 02 Connection Interface",
+        "address": "10.133.4.211",
+        "slave_id": 2
+    },
+    {
+        "name": "TGBT Sud Etage 6 02 Connection Interface_3",
+        "address": "10.133.4.211",
+        "slave_id": 3
+    },
+    {
+        "name": "TGBT Sud Etage 6 02 Connection Interface_4",
+        "address": "10.133.4.211",
+        "slave_id": 4
+    },
+    {
+        "name": "TGBT Sud Etage 8 02 Connection Interface_5",
+        "address": "10.133.4.211",
+        "slave_id": 5
+    },
+    {
+        "name": "TGBT Sud Sous-sol 2 02 Connection Interface",
+        "address": "10.133.4.211",
+        "slave_id": 6
+    },
+    {
+        "name": "TGBT Sud Sous-sol 2 07 Connection Interface",
+        "address": "10.133.4.211",
+        "slave_id": 7
+    },
+    {
+        "name": "TGBT Sud Rez 02 Connection Interface",
+        "address": "10.133.4.211",
+        "slave_id": 8
+    },
+    {
+        "name": "MCR Sud Sous-sol 3 02 Connection Interface",
+        "address": "10.133.4.212",
+        "slave_id": 3
+    },
+    {
+        "name": "MCR Nord Sous-sol 3 02 Connection Interface",
+        "address": "10.133.4.212",
+        "slave_id": 4
+    },
+    {
+        "name": "TGBT Sud Sous-Sol 3 04 Connection Interface",
+        "address": "10.133.4.212",
+        "slave_id": 5
+    },
+    {
+        "name": "Data Center A Connection Interface_7_2",
+        "address": "10.133.4.212",
+        "slave_id": 7
+    },
+    {
+        "name": "Petit dist Cellule 13 Connection Interface_4",
+        "address": "10.133.4.213",
+        "slave_id": 4
+    },
+    {
+        "name": "Petit dist Cellule 13 Connection Interface_6",
+        "address": "10.133.4.213",
+        "slave_id": 6
+    },
+    {
+        "name": "COM800 215 1 Connection Interface",
+        "address": "10.133.4.215",
+        "slave_id": 1
+    },
+    {
+        "name": "Départ vers onduleur Connection Interface_2_1",
+        "address": "10.133.4.215",
+        "slave_id": 2
+    },
+    {
+        "name": "Introduction Connection Interface_4",
+        "address": "10.133.4.215",
+        "slave_id": 4
+    },
+    {
+        "name": "Introduction Connection Interface_2",
+        "address": "10.133.4.216",
+        "slave_id": 2
+    },
+    {
+        "name": "Retour de onduleur Connection Interface_3",
+        "address": "10.133.4.216",
+        "slave_id": 3
+    },
+    {
+        "name": "Petite Distribution Connection Interface_4",
+        "address": "10.133.4.216",
+        "slave_id": 4
+    },
+    {
+        "name": "Départ vers onduleur Connection Interface_2_2",
+        "address": "10.133.4.218",
+        "slave_id": 2
+    },
+    {
+        "name": "By pass Inter Connection Interface",
+        "address": "10.133.4.218",
+        "slave_id": 3
+    },
+    {
+        "name": "STS Connection Interface",
+        "address": "10.133.4.218",
+        "slave_id": 4
+    },
+    {
+        "name": "Retour de onduleur Connection Interface_2",
+        "address": "10.133.4.219",
+        "slave_id": 2
+    },
+    {
+        "name": "Petite Distribution Connection Interface_3",
+        "address": "10.133.4.219",
+        "slave_id": 3
+    },
+    {
+        "name": "Départ Rail Connection Interface",
+        "address": "10.133.4.219",
+        "slave_id": 4
+    },
+    {
+        "name": "TGBT Nord Sous-sol 1 05 Cuisine Ballroom Connection Interface",
+        "address": "10.133.4.224",
+        "slave_id": 1
+    },
+    {
+        "name": "TGBT Nord Sous-sol 1 09 Ballroom Connection Interface",
+        "address": "10.133.4.224",
+        "slave_id": 2
+    },
+    {
+        "name": "TGBT Nord Sous-sol 2 04 Studio Production Connection Interface",
+        "address": "10.133.4.224",
+        "slave_id": 3
+    },
+    {
+        "name": "TGBT Nord Sous-sol 2 06 Départ Nord 1 Connection Interface",
+        "address": "10.133.4.224",
+        "slave_id": 4
+    },
+    {
+        "name": "TGBT Nord Sous-sol 2 05 Départ Nord 2 Connection Interface",
+        "address": "10.133.4.224",
+        "slave_id": 5
+    },
+    {
+        "name": "COM800 224 6 Connection Interface",
+        "address": "10.133.4.224",
+        "slave_id": 6
+    },
+    {
+        "name": "Introduction 6 Connection Interface",
+        "address": "10.133.4.227",
+        "slave_id": 6
+    },
+    {
+        "name": "COM800 227 Réseau 1 Connection Interface",
+        "address": "10.133.4.227",
+        "slave_id": 1
+    },
+    {
+        "name": "COM800 227 Réseau 2 Connection Interface",
+        "address": "10.133.4.227",
+        "slave_id": 2
+    },
+    {
+        "name": "COM800 227 Réseau 3 Connection Interface",
+        "address": "10.133.4.227",
+        "slave_id": 3
+    },
+    {
+        "name": "COM800 227 Réseau 4 Connection Interface",
+        "address": "10.133.4.227",
+        "slave_id": 4
+    },
+    {
+        "name": "COM800 227 Tableau També S3 5 Connection Interface",
+        "address": "10.133.4.227",
+        "slave_id": 5
+    },
+    {
+        "name": "COM800 246 1 Connection Interface",
+        "address": "10.133.4.246",
+        "slave_id": 1
+    },
+    {
+        "name": "COM800 246 2 Connection Interface",
+        "address": "10.133.4.246",
+        "slave_id": 2
+    },
+    {
+        "name": "COM800 246 3 Connection Interface",
+        "address": "10.133.4.246",
+        "slave_id": 3
+    },
+    {
+        "name": "COM800 246 4 Connection Interface",
+        "address": "10.133.4.246",
+        "slave_id": 4
+    },
+    {
+        "name": "COM800 246 5 Connection Interface",
+        "address": "10.133.4.246",
+        "slave_id": 5
+    },
+    {
+        "name": "COM800 246 6 Connection Interface",
+        "address": "10.133.4.246",
+        "slave_id": 6
+    },
+    {
+        "name": "COM800 246 7 Connection Interface",
+        "address": "10.133.4.246",
+        "slave_id": 7
+    },
+    {
+        "name": "Cuisine catering S3",
+        "address": "10.133.4.203",
+        "slave_id": 1
+    }
+]

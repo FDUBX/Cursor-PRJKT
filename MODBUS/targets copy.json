@@ -1,0 +1,740 @@
+"metersMonitoring": {
+    "e0_n_pac_4200": {
+        "prettyName": "E0-N-PAC-4200",
+        "systemId": "E0-N-PAC-4200",
+        "type": "elec",
+        "emplacement": "E0"
+    },
+    "e0_s_pac_4200": {
+        "prettyName": "E0-S-PAC-4200",
+        "systemId": "E0-S-PAC-4200",
+        "type": "elec",
+        "emplacement": "E0"
+    },
+    "e1_n_pac_4200": {
+        "prettyName": "E1-N-PAC-4200",
+        "systemId": "E1-N-PAC-4200",
+        "type": "elec",
+        "emplacement": "E1"
+    },
+    "e1_s_pac_4200": {
+        "prettyName": "E1-S-PAC-4200",
+        "systemId": "E1-S-PAC-4200",
+        "type": "elec",
+        "emplacement": "E1"
+    },
+    "e2_n_pac_4200": {
+        "prettyName": "E2-N-PAC-4200",
+        "systemId": "E2-N-PAC-4200",
+        "type": "elec",
+        "emplacement": "E2"
+    },
+    "e2_s_pac_4200": {
+        "prettyName": "E2-S-PAC-4200",
+        "systemId": "E2-S-PAC-4200",
+        "type": "elec",
+        "emplacement": "E2"
+    },
+    "e3_n_pac_4200": {
+        "prettyName": "E3-N-PAC-4200",
+        "systemId": "E3-N-PAC-4200",
+        "type": "elec",
+        "emplacement": "E3"
+    },
+    "e3_s_pac_4200": {
+        "prettyName": "E3-S-PAC-4200",
+        "systemId": "E3-S-PAC-4200",
+        "type": "elec",
+        "emplacement": "E3"
+    },
+    "e4_n_pac_4200": {
+        "prettyName": "E4-N-PAC-4200",
+        "systemId": "E4-N-PAC-4200",
+        "type": "elec",
+        "emplacement": "E4"
+    },
+    "e4_s_pac_4200": {
+        "prettyName": "E4-S-PAC-4200",
+        "systemId": "E4-S-PAC-4200",
+        "type": "elec",
+        "emplacement": "E4"
+    },
+    "e5_n_pac_4200": {
+        "prettyName": "E5-N-PAC-4200",
+        "systemId": "E5-N-PAC-4200",
+        "type": "elec",
+        "emplacement": "E5"
+    },
+    "e5_s_pac_4200": {
+        "prettyName": "E5-S-PAC-4200",
+        "systemId": "E5-S-PAC-4200",
+        "type": "elec",
+        "emplacement": "E5"
+    },
+    "e6_n_pac_4200": {
+        "prettyName": "E6-N-PAC-4200",
+        "systemId": "E6-N-PAC-4200",
+        "type": "elec",
+        "emplacement": "E6"
+    },
+    "e6_s_pac_4200": {
+        "prettyName": "E6-S-PAC-4200",
+        "systemId": "E6-S-PAC-4200",
+        "type": "elec",
+        "emplacement": "E6"
+    },
+    "e7_n_pac_4200": {
+        "prettyName": "E7-N-PAC-4200",
+        "systemId": "E7-N-PAC-4200",
+        "type": "elec",
+        "emplacement": "E7"
+    },
+    "e7_s_pac_4200": {
+        "prettyName": "E7-S-PAC-4200",
+        "systemId": "E7-S-PAC-4200",
+        "type": "elec",
+        "emplacement": "E7"
+    },
+    "e8_n_pac_4200": {
+        "prettyName": "E8-N-PAC-4200",
+        "systemId": "E8-N-PAC-4200",
+        "type": "elec",
+        "emplacement": "E8"
+    },
+    "e8_s_pac_4200": {
+        "prettyName": "E8-S-PAC-4200",
+        "systemId": "E8-S-PAC-4200",
+        "type": "elec",
+        "emplacement": "E8"
+    },
+    "cuisine_club": {
+        "prettyName": "Cuisine club",
+        "systemId": "Cuisine club",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "cuisine_et_restaurants_e0": {
+        "prettyName": "Cuisine et restaurants E0",
+        "systemId": "Cuisine et restaurants E0",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "d_p_t_restaurant_s3": {
+        "prettyName": "Dépôt restaurant S3",
+        "systemId": "Dépôt restaurant S3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "club_force_s1_s2": {
+        "prettyName": "Club Force S1 / S2",
+        "systemId": "Club Force S1 / S2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "data_center_a": {
+        "prettyName": "Data center A",
+        "systemId": "Data center A",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "data_center_b": {
+        "prettyName": "Data center B",
+        "systemId": "Data center B",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "chargeur_voiture_introduction": {
+        "prettyName": "Chargeur Voiture Introduction",
+        "systemId": "Chargeur Voiture Introduction",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "pompe_turbocor_1_1": {
+        "prettyName": "Pompe Turbocor_1",
+        "systemId": "Pompe Turbocor_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "monte_charges_nord_2_2": {
+        "prettyName": "Monte charges Nord_2",
+        "systemId": "Monte charges Nord_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_02_nord_3_3": {
+        "prettyName": "Ascenseur 02 Nord_3",
+        "systemId": "Ascenseur 02 Nord_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_03_nord_4_4": {
+        "prettyName": "Ascenseur 03 Nord_4",
+        "systemId": "Ascenseur 03 Nord_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_04_nord_5_5": {
+        "prettyName": "Ascenseur 04 Nord_5",
+        "systemId": "Ascenseur 04 Nord_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_05_nord_6_6": {
+        "prettyName": "Ascenseur 05 Nord_6",
+        "systemId": "Ascenseur 05 Nord_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ventilation_toiture_nord_7_7": {
+        "prettyName": "Ventilation toiture Nord_7",
+        "systemId": "Ventilation toiture Nord_7",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "station_de_lavage_2_2": {
+        "prettyName": "Station de lavage_2",
+        "systemId": "Station de lavage_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_6_sud_2_2": {
+        "prettyName": "Ascenseur 6 Sud_2",
+        "systemId": "Ascenseur 6 Sud_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_7_sud_3_3": {
+        "prettyName": "Ascenseur 7 Sud_3",
+        "systemId": "Ascenseur 7 Sud_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_8_sud_4_4": {
+        "prettyName": "Ascenseur 8 Sud_4",
+        "systemId": "Ascenseur 8 Sud_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_9_sud_5_5": {
+        "prettyName": "Ascenseur 9 Sud_5",
+        "systemId": "Ascenseur 9 Sud_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ventilation_toiture_sud_6_6": {
+        "prettyName": "Ventilation toiture Sud_6",
+        "systemId": "Ventilation toiture Sud_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "monte_charges_sud_1_1": {
+        "prettyName": "Monte charges Sud_1",
+        "systemId": "Monte charges Sud_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "pompe_absorption_2_2": {
+        "prettyName": "Pompe absorption_2",
+        "systemId": "Pompe absorption_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "fontaine_3_3": {
+        "prettyName": "Fontaine_3",
+        "systemId": "Fontaine_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ballroom_4_4": {
+        "prettyName": "Ballroom_4",
+        "systemId": "Ballroom_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "cuisine_ballroom_5_5": {
+        "prettyName": "Cuisine Ballroom_5",
+        "systemId": "Cuisine Ballroom_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "pressing_1_1": {
+        "prettyName": "Pressing _1",
+        "systemId": "Pressing _1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "force_auditoire_2_2": {
+        "prettyName": "Force Auditoire_2",
+        "systemId": "Force Auditoire_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "fitness_3_3": {
+        "prettyName": "Fitness_3",
+        "systemId": "Fitness_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_204_2_2": {
+        "prettyName": "COM800 204 2 int_2",
+        "systemId": "COM800 204 2 Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_sous_sol_2_02_3": {
+        "prettyName": "TGBT Nord Sous-sol 2 02 int_3",
+        "systemId": "TGBT Nord Sous-sol 2 02 Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_etage_6_02_4": {
+        "prettyName": "TGBT Nord Etage 6 02 int_4",
+        "systemId": "TGBT Nord Etage 6 02 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_etage_6_02_5": {
+        "prettyName": "TGBT Nord Etage 6 02 int_5",
+        "systemId": "TGBT Nord Etage 6 02 Connection Interface_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_etage_6_02_6": {
+        "prettyName": "TGBT Nord Etage 6 02 int_6",
+        "systemId": "TGBT Nord Etage 6 02 Connection Interface_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_etage_6_02_7": {
+        "prettyName": "TGBT Nord Etage 6 02 int_7",
+        "systemId": "TGBT Nord Etage 6 02 Connection Interface_7",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "pompe_po3_1": {
+        "prettyName": "Pompe PO3 int_1",
+        "systemId": "Pompe PO3 Connection Interface_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "monte_charges_2": {
+        "prettyName": "Monte-charges int_2",
+        "systemId": "Monte-charges Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_02_3": {
+        "prettyName": "Ascenseur 02 int_3",
+        "systemId": "Ascenseur 02 Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_03_4": {
+        "prettyName": "Ascenseur 03 int_4",
+        "systemId": "Ascenseur 03 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_04_5": {
+        "prettyName": "Ascenseur 04 int_5",
+        "systemId": "Ascenseur 04 Connection Interface_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_05_6": {
+        "prettyName": "Ascenseur 05 int_6",
+        "systemId": "Ascenseur 05 Connection Interface_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "mcr_nord_etage_9_01_7": {
+        "prettyName": "MCR Nord Etage 9 01 int_7",
+        "systemId": "MCR Nord Etage 9 01 Connection Interface_7",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_sud_sous_sol_1_02_8": {
+        "prettyName": "TGBT Sud Sous-sol 1 02 int_8",
+        "systemId": "TGBT Sud Sous-sol 1 02 Connection Interface_8",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "socle_1": {
+        "prettyName": "Socle int_1",
+        "systemId": "Socle Connection Interface_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_206_2_2": {
+        "prettyName": "COM800 206 2 int_2",
+        "systemId": "COM800 206 2 Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "petite_distribution_1_3": {
+        "prettyName": "Petite Distribution_1 int_3",
+        "systemId": "Petite Distribution_1 Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "petite_distribution_2_4": {
+        "prettyName": "Petite Distribution_2 int_4",
+        "systemId": "Petite Distribution_2 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "petite_distribution_3_5": {
+        "prettyName": "Petite Distribution_3 int_5",
+        "systemId": "Petite Distribution_3 Connection Interface_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "socle_2_6": {
+        "prettyName": "Socle_2 int_6",
+        "systemId": "Socle_2 Connection Interface_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "data_center_a_1_7_7": {
+        "prettyName": "Data Center A Connection Interface_1_7",
+        "systemId": "Data Center A Connection Interface_1_7",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_sous_sol_3_04_1": {
+        "prettyName": "TGBT Nord Sous-sol 3 04 int_1",
+        "systemId": "TGBT Nord Sous-sol 3 04 Connection Interface_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_sous_sol_3_06_2": {
+        "prettyName": "TGBT Nord Sous-sol 3 06 int_2",
+        "systemId": "TGBT Nord Sous-sol 3 06 Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "mcr_nord_sous_sol_3_04_3": {
+        "prettyName": "MCR Nord Sous-sol 3 04 int_3",
+        "systemId": "MCR Nord Sous-sol 3 04 Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "mcr_nord_sous_sol_3_05_4": {
+        "prettyName": "MCR Nord Sous-sol 3 05 int_4",
+        "systemId": "MCR Nord Sous-sol 3 05 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_06_2": {
+        "prettyName": "Ascenseur 06 int_2",
+        "systemId": "Ascenseur 06 Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_06_3": {
+        "prettyName": "Ascenseur 06 int_3",
+        "systemId": "Ascenseur 06 Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_06_4": {
+        "prettyName": "Ascenseur 06 int_4",
+        "systemId": "Ascenseur 06 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_06_6": {
+        "prettyName": "Ascenseur 06 int_6",
+        "systemId": "Ascenseur 06 Connection Interface_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "ascenseur_06_7": {
+        "prettyName": "Ascenseur 06 int_7",
+        "systemId": "Ascenseur 06 Connection Interface_7",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "monte_charge_1": {
+        "prettyName": "Monte-Charge int_1",
+        "systemId": "Monte-Charge Connection Interface_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_sud_etage_2_02_2": {
+        "prettyName": "TGBT Sud Etage 2 02 int_2",
+        "systemId": "TGBT Sud Etage 2 02 Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_sud_etage_6_02_3": {
+        "prettyName": "TGBT Sud Etage 6 02 int_3",
+        "systemId": "TGBT Sud Etage 6 02 Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_sud_etage_6_02_4": {
+        "prettyName": "TGBT Sud Etage 6 02 int_4",
+        "systemId": "TGBT Sud Etage 6 02 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_sud_etage_8_02_5": {
+        "prettyName": "TGBT Sud Etage 8 02 int_5",
+        "systemId": "TGBT Sud Etage 8 02 Connection Interface_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_sud_sous_sol_2_02_6": {
+        "prettyName": "TGBT Sud Sous-sol 2 02 int_6",
+        "systemId": "TGBT Sud Sous-sol 2 02 Connection Interface_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_sud_sous_sol_2_07_7": {
+        "prettyName": "TGBT Sud Sous-sol 2 07 int_7",
+        "systemId": "TGBT Sud Sous-sol 2 07 Connection Interface_7",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_sud_rez_02_8": {
+        "prettyName": "TGBT Sud Rez 02 int_8",
+        "systemId": "TGBT Sud Rez 02 Connection Interface_8",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "pompe_r2_2": {
+        "prettyName": "Pompe R2 int_2",
+        "systemId": "Pompe R2 Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "mcr_sud_sous_sol_3_02_3": {
+        "prettyName": "MCR Sud Sous-sol 3 02 int_3",
+        "systemId": "MCR Sud Sous-sol 3 02 Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "mcr_nord_sous_sol_3_02_4": {
+        "prettyName": "MCR Nord Sous-sol 3 02 int_4",
+        "systemId": "MCR Nord Sous-sol 3 02 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_sud_sous_sol_3_04_5": {
+        "prettyName": "TGBT Sud Sous-Sol 3 04 int_5",
+        "systemId": "TGBT Sud Sous-Sol 3 04 Connection Interface_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "data_center_a_2_7_7": {
+        "prettyName": "Data Center A Connection Interface_2_7",
+        "systemId": "Data Center A Connection Interface_2_7",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "petit_dist_cellule_13_4": {
+        "prettyName": "Petit dist Cellule 13 int_4",
+        "systemId": "Petit dist Cellule 13 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "petit_dist_cellule13_6": {
+        "prettyName": "Petit dist Cellule13 int_6",
+        "systemId": "Petit dist Cellule13 Connection Interface_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_215_1_1": {
+        "prettyName": "COM800 215 1 int_1",
+        "systemId": "COM800 215 1 Connection Interface_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "d_part_vers_onduleur_1_2_2": {
+        "prettyName": "Départ vers onduleur Connection Interface_1_2",
+        "systemId": "Départ vers onduleur Connection Interface_1_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "introduction_4": {
+        "prettyName": "Introduction int_4",
+        "systemId": "Introduction Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "introduction_2": {
+        "prettyName": "Introduction int_2",
+        "systemId": "Introduction Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "retour_de_onduleur_3": {
+        "prettyName": "Retour de onduleur int_3",
+        "systemId": "Retour de onduleur Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "petite_distribution_4": {
+        "prettyName": "Petite Distribution int_4",
+        "systemId": "Petite Distribution Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "d_part_vers_onduleur_2_2_2": {
+        "prettyName": "Départ vers onduleur Connection Interface_2_2",
+        "systemId": "Départ vers onduleur Connection Interface_2_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "by_pass_inter_3": {
+        "prettyName": "By pass Inter int_3",
+        "systemId": "By pass Inter Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "sts_4": {
+        "prettyName": "STS int_4",
+        "systemId": "STS Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "retour_de_onduleur_2": {
+        "prettyName": "Retour de onduleur int_2",
+        "systemId": "Retour de onduleur Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "petite_distribution_3": {
+        "prettyName": "Petite Distribution int_3",
+        "systemId": "Petite Distribution Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "d_part_rail_4": {
+        "prettyName": "Départ Rail int_4",
+        "systemId": "Départ Rail Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_sous_sol_1_05_cuisine_ballroom_1": {
+        "prettyName": "TGBT Nord Sous-sol 1 05 Cuisine Ballroom int_1",
+        "systemId": "TGBT Nord Sous-sol 1 05 Cuisine Ballroom Connection Interface_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_sous_sol_1_09_ballroom_2": {
+        "prettyName": "TGBT Nord Sous-sol 1 09 Ballroom int_2",
+        "systemId": "TGBT Nord Sous-sol 1 09 Ballroom Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_sous_sol_2_04_studio_production_3": {
+        "prettyName": "TGBT Nord Sous-sol 2 04 Studio Production int_3",
+        "systemId": "TGBT Nord Sous-sol 2 04 Studio Production Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_sous_sol_2_06_d_part_nord_1_4": {
+        "prettyName": "TGBT Nord Sous-sol 2 06 Départ Nord 1 int_4",
+        "systemId": "TGBT Nord Sous-sol 2 06 Départ Nord 1 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "tgbt_nord_sous_sol_2_05_d_part_nord_2_5": {
+        "prettyName": "TGBT Nord Sous-sol 2 05 Départ Nord 2 int_5",
+        "systemId": "TGBT Nord Sous-sol 2 05 Départ Nord 2 Connection Interface_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_224_6_6": {
+        "prettyName": "COM800 224 6 int_6",
+        "systemId": "COM800 224 6 Connection Interface_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "introduction_6_6": {
+        "prettyName": "Introduction 6 int_6",
+        "systemId": "Introduction 6 Connection Interface_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_227_r_seau_1_1": {
+        "prettyName": "COM800 227 Réseau 1 int_1",
+        "systemId": "COM800 227 Réseau 1 Connection Interface_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_227_r_seau_2_2": {
+        "prettyName": "COM800 227 Réseau 2 int_2",
+        "systemId": "COM800 227 Réseau 2 Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_227_r_seau_3_3": {
+        "prettyName": "COM800 227 Réseau 3 int_3",
+        "systemId": "COM800 227 Réseau 3 Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_227_r_seau_4_4": {
+        "prettyName": "COM800 227 Réseau 4 int_4",
+        "systemId": "COM800 227 Réseau 4 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_227_tableau_tamb_s3_5_5": {
+        "prettyName": "COM800 227 Tableau També S3 5 int_5",
+        "systemId": "COM800 227 Tableau També S3 5 Connection Interface_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_246_1_1": {
+        "prettyName": "COM800 246 1 int_1",
+        "systemId": "COM800 246 1 Connection Interface_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_246_2_2": {
+        "prettyName": "COM800 246 2 int_2",
+        "systemId": "COM800 246 2 Connection Interface_2",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_246_3_3": {
+        "prettyName": "COM800 246 3 int_3",
+        "systemId": "COM800 246 3 Connection Interface_3",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_246_4_4": {
+        "prettyName": "COM800 246 4 int_4",
+        "systemId": "COM800 246 4 Connection Interface_4",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_246_5_5": {
+        "prettyName": "COM800 246 5 int_5",
+        "systemId": "COM800 246 5 Connection Interface_5",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_246_6_6": {
+        "prettyName": "COM800 246 6 int_6",
+        "systemId": "COM800 246 6 Connection Interface_6",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "com800_246_7_7": {
+        "prettyName": "COM800 246 7 int_7",
+        "systemId": "COM800 246 7 Connection Interface_7",
+        "type": "elec",
+        "emplacement": "Millennium"
+    },
+    "cuisine_catering_s3_1_1": {
+        "prettyName": "Cuisine catering S3_1",
+        "systemId": "Cuisine catering S3_1",
+        "type": "elec",
+        "emplacement": "Millennium"
+    }
+}

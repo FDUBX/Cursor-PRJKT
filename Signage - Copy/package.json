@@ -1,0 +1,19 @@
+{
+  "name": "synthese-signage",
+  "version": "1.0.0",
+  "description": "Synthèse croisée Signage/Events",
+  "bin": "synthese_signage.js",
+  "scripts": {
+    "start": "node synthese_signage.js"
+  },
+  "dependencies": {
+    "papaparse": "^5.4.1",
+    "csv-writer": "^1.6.0",
+    "node-fetch": "^2.6.7"
+  },
+  "pkg": {
+    "assets": [
+      "Digital Signage - Info - 2025 05 18.csv"
+    ]
+  }
+}

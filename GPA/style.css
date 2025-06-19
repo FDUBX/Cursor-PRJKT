@@ -1,0 +1,144 @@
+/* GPA Style for Q-SYS
+ * Based on GPA.ch design
+ */
+
+:root {
+    /* Color Variables */
+    --gpa-blue: #0055A4;
+    --gpa-light-blue: #0077CC;
+    --gpa-white: #FFFFFF;
+    --gpa-gray: #F5F5F5;
+    --gpa-dark-gray: #333333;
+    --gpa-border: #E0E0E0;
+    
+    /* Spacing Variables */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+    
+    /* Border Radius */
+    --border-radius: 8px;
+    
+    /* Shadows */
+    --shadow-small: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Global Styles */
+page {
+    background-color: var(--gpa-white);
+    color: var(--gpa-dark-gray);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Button Styles */
+button {
+    background-color: var(--gpa-blue);
+    color: var(--gpa-white);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-small) var(--spacing-medium);
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    box-shadow: var(--shadow-small);
+}
+
+button:hover {
+    background-color: var(--gpa-light-blue);
+}
+
+button:pressed {
+    background-color: var(--gpa-blue);
+    box-shadow: none;
+}
+
+button:value(1) {
+    background-color: var(--gpa-light-blue);
+}
+
+/* Fader Styles */
+fader {
+    background-color: var(--gpa-gray);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--gpa-border);
+}
+
+fader:value(1) {
+    background-color: var(--gpa-blue);
+}
+
+/* Text Box Styles */
+textbox {
+    background-color: var(--gpa-white);
+    border: 1px solid var(--gpa-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-small);
+    color: var(--gpa-dark-gray);
+}
+
+/* Label Styles */
+label {
+    color: var(--gpa-dark-gray);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Group Box Styles */
+groupbox {
+    background-color: var(--gpa-white);
+    border: 1px solid var(--gpa-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-medium);
+    box-shadow: var(--shadow-small);
+}
+
+/* Slider Styles */
+slider {
+    background-color: var(--gpa-gray);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--gpa-border);
+}
+
+slider:value(1) {
+    background-color: var(--gpa-blue);
+}
+
+/* Knob Styles */
+knob {
+    background-color: var(--gpa-white);
+    border: 1px solid var(--gpa-border);
+    border-radius: 50%;
+    box-shadow: var(--shadow-small);
+}
+
+knob:value(1) {
+    background-color: var(--gpa-blue);
+}
+
+/* Custom Classes */
+.gpa-primary-button {
+    background-color: var(--gpa-blue);
+    color: var(--gpa-white);
+    font-weight: 600;
+}
+
+.gpa-secondary-button {
+    background-color: var(--gpa-white);
+    color: var(--gpa-blue);
+    border: 1px solid var(--gpa-blue);
+}
+
+.gpa-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--gpa-blue);
+    margin-bottom: var(--spacing-medium);
+}
+
+.gpa-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--gpa-dark-gray);
+    margin-bottom: var(--spacing-small);
+}

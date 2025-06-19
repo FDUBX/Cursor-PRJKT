@@ -1,0 +1,138 @@
+10.133.4.228;Crêche / Coiffeur
+10.133.4.229;E0 Zürich HelpPoint
+10.133.4.230;E1 Nord
+10.133.4.231;E1 Sud
+10.133.4.232;E2 Nord
+10.133.4.233;E2 Sud
+10.133.4.234;E3 Nord
+10.133.4.235;E3 Sud
+10.133.4.236;E4 Nord
+10.133.4.237;E4 Sud
+10.133.4.238;E5  Nord
+10.133.4.239;E5 Sud
+10.133.4.240;E6 Nord
+10.133.4.241;E6 Sud
+10.133.4.242;E7 Nord
+10.133.4.243;E7 Sud
+10.133.4.244;E8 Nord
+10.133.4.245;E8 Sud
+10.133.4.193;Cuisine club
+10.133.4.192;Club Distribution S1
+10.133.4.191;Club Distribution S1
+10.133.4.226;Pressing / Fitness /Auditoire
+10.133.4.251;Cuisine et restaurants E0
+10.133.4.252;Dépôt restaurant S3
+10.133.4.250;Cuisine et restaurants E0 / Dépôt restaurant S3
+10.133.4.196;Club Force S2
+10.133.4.195;Club Force S2
+10.133.4.194;Club Force S2
+10.133.4.197;Club Force S2
+10.133.4.223;Dépôt Nord / Studio prod. / Espace / Cuisine Espace
+10.133.4.225;Dépôts S2 sud
+10.133.4.199;Club Force S1 / S2
+10.133.4.201;Bâtiment Nord
+10.133.4.202;Départ rail Nord
+10.133.4.217;Data center A
+10.133.4.214;Data center B
+10.133.4.208;Bâtiment Sud
+10.133.4.209;Départ rail Nord
+10.133.4.220;Chargeur Voiture Introduction
+10.133.4.221;Chargeur Voiture Départ S1
+10.133.4.222;Chargeur Voiture Départ S2
+10.133.4.249;
+10.133.4.200;Désenfumage
+10.133.4.203;Cuisine catering S3
+10.133.4.198_1;Club S2 cellule 1
+10.133.4.198_2;Club S2 cellule 2
+10.133.4.198_3;Club S2 cellule 3
+10.133.4.198_4;Club S2 cellule 4
+10.133.4.198_5;Club S1 cellule 1
+10.133.4.198_6;Club S1 cellule 2
+10.133.4.198_7;Club S1 cellule 3
+10.133.4.204_2;Communs Nord E0
+10.133.4.204_3;Commun Nord S2
+10.133.4.204_4;Commun Nord E2
+10.133.4.204_5;Commun Nord E4
+10.133.4.204_6;Commun Nord E6
+10.133.4.204_7;Commun Nord E8
+10.133.4.205_1;Pompe Turbocor
+10.133.4.205_2;Monte charges Nord
+10.133.4.205_3;Ascenseur 02 Nord
+10.133.4.205_4;Ascenseur 03 Nord
+10.133.4.205_5;Ascenseur 04 Nord
+10.133.4.205_6;Ascenseur 05 Nord
+10.133.4.205_7;Ventilation toiture Nord
+10.133.4.205_8;Tableau Nord S1
+10.133.4.206_2;Parking Nord S3
+10.133.4.206_3;Petite distribution T_ELEC_N_S3_01
+10.133.4.206_4;Petite distribution cellule 11
+10.133.4.206_5;Petite distribution cellule 112-4
+10.133.4.206_6;Club force
+10.133.4.206_7;Data center
+10.133.4.207_1;Local anti-chambre
+10.133.4.207_2;Station de lavage
+10.133.4.207_3;Ventilation dépôts /auditoire Nord
+10.133.4.207_4;Ventilation admin / commerces
+10.133.4.207_5;Production et distribution CH-FR
+10.133.4.210_1;Réserve
+10.133.4.210_2;Ascenseur 6 Sud
+10.133.4.210_3;Ascenseur 7 Sud
+10.133.4.210_4;Ascenseur 8 Sud
+10.133.4.210_5;Ascenseur 9 Sud
+10.133.4.210_6;Ventilation toiture Sud
+10.133.4.210_7;Communs Sud S1_02
+10.133.4.211_1;Monte charges Sud
+10.133.4.211_2;Communs Sud E2
+10.133.4.211_3;Communs Sud E4
+10.133.4.211_4;Communs Sud E6
+10.133.4.211_5;Communs Sud E8
+10.133.4.211_6;Communs Sud S2_02
+10.133.4.211_7;Communs Sud S2_07
+10.133.4.211_8;Communs Sud E0
+10.133.4.212_2;Pompe absorption
+10.133.4.212_3;CVS 2 Ventilation / ECS 
+10.133.4.212_4;Production et distribution CH-FR
+10.133.4.212_5;Local anti-chambre
+10.133.4.212_7;Data center
+10.133.4.213_2;ECS
+10.133.4.213_3;Fontaine
+10.133.4.213_4;Petie distribution 19-20
+10.133.4.213_5;Petie distribution 13
+10.133.4.213_6;Petie distribution 132-134
+10.133.4.215_1;Data center BBy-Pas Inter
+10.133.4.215_2;Data center B Retour Onduleur
+10.133.4.215_3;Data center B Introduction Générateur
+10.133.4.215_4;Data center B Introduction Inter
+10.133.4.216_1;Data center B By-Pas Inter
+10.133.4.216_2;Data center B Départ Onduleur
+10.133.4.216_3;Data center B Introduction Générateur
+10.133.4.218_1;
+10.133.4.218_2;
+10.133.4.218_3;
+10.133.4.218_4;
+10.133.4.216_4;Data center B Introduction Inter
+10.133.4.219_1;Data center A STS
+10.133.4.219_2;Data center A Retour Onduleur
+10.133.4.219_3;Data center A Petite distribution
+10.133.4.219_4;Data center A Départ rail Nord
+10.133.4.252;Dépôt restaurant
+10.133.4.224_1;Dépôt Nord 2
+10.133.4.224_2;Dépôt Nord 1
+10.133.4.224_3;Studio de production
+10.133.4.224_4;Ballroom
+10.133.4.224_5;Cuisine Ballroom
+10.133.4.227_2;Tableau També S3
+10.133.4.227_3;Tableau auditoire cellule 1
+10.133.4.227_4;Tableau auditoire cellule 2
+10.133.4.227_5;Tableau auditoire cellule 3
+10.133.4.227_6;Tableau auditoire cellule 4
+10.133.4.246_1;Vario cooking
+10.133.4.246_2;Tunnel Lavage cuisine
+10.133.4.246_3;Distibution restaurant
+10.133.4.246_4;Distibution 6-7
+10.133.4.246_5;Distibution 4-5
+10.133.4.246_6;Distibution 2-3
+10.133.4.246_7;Distribution 1
+10.133.4.248_1;Pressing 
+10.133.4.248_2;Force Auditoire
+10.133.4.248_3;Fitness

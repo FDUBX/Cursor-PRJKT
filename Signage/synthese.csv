@@ -1,0 +1,46 @@
+functionStart,functionEnd,articleStart,articleEnd,customerName,roomId,playerName,playerType,display,deviceType,# Event/Momentus,Item Event/Momentus,articleInvoiceNote,articleNote,screenText,screenValue
+06:00,20:00,06:00,22:00,Millennium Center SA,room-1181-A,Business 8,HMP400,paysage,inventoryitem-5349-A,,iPad Loge/SdC - visuel complet,https://millenniumopsignage.blob.core.windows.net/millennium-signage-visuels-complets/ND Capital_Logo.png,,,
+08:00,17:00,07:00,17:30,Audemars Piguet (Marketing) SA,room-1162-A,Business 3,HMP400,paysage,inventoryitem-1441-A,,iPad Loge/SdC - logo,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AP Blanc.png,Séance,,
+08:00,17:00,07:00,17:30,Audemars Piguet (Marketing) SA,room-1162-A,Business 3,HMP400,paysage,inventoryitem-1442-A,,Carousel Lobby,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AP Blanc.png,"Séance
+Centre de Conférences Business (niveau -1)",,
+08:00,19:00,08:00,19:00,Manufacture d'Horlogerie Audemars Piguet SA,room-1110-A,Auditorium - Loge 1,HMP400,paysage,inventoryitem-1441-A,,iPad Loge/SdC - logo,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AP Blanc.png,Ilaria Resta ,,
+08:00,17:00,07:00,17:30,Audemars Piguet (Marketing) SA,room-1162-A,Business 3,HMP400,paysage,inventoryitem-1505-A,,SdC - logo,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AP Blanc.png,Bienvenue,,
+08:00,18:00,07:00,15:00,Manufacture d'Horlogerie Audemars Piguet SA,room-1111-A,Auditorium - Loge 2,HMP400,paysage,inventoryitem-1441-A,,iPad Loge/SdC - logo,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AP Blanc.png,Ilaria Resta ,,
+08:00,17:00,07:00,17:30,Audemars Piguet (Marketing) SA,room-1162-A,Business 3,HMP400,paysage,inventoryitem-1633-A,,Carousel CdC Business,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AP Blanc.png,"Séance
+Business 3",,
+08:00,17:00,07:00,17:30,Audemars Piguet (Marketing) SA,room-1162-A,Business 3,HMP400,paysage,inventoryitem-1473-A,,Carousel Couloirs Parkings,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AP Blanc.png,"Séance
+Centre de Conférences Business (niveau -1)",,
+08:30,14:30,07:00,14:30,Manufacture d'Horlogerie Audemars Piguet SA,room-1527-A,Couloir Centre S3,HMP400,portrait,inventoryitem-1473-A,7,Carousel Couloirs Parkings,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AP Blanc.png,"Convention fournisseurs
+Check-in : réception (niveau 0)
+Conférence : La Scène (niveau -2)
+Salle de restauration : L'Espace (niveau -2)
+",Portrait => Couloirs Parkings,portrait_sortie_parking
+08:30,14:30,07:00,14:30,Manufacture d'Horlogerie Audemars Piguet SA,room-1527-A,,,,inventoryitem-1442-A,8,Carousel Lobby,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AP Blanc.png,"Convention fournisseurs
+Check-in : réception (niveau 0)
+Conférence : La Scène (niveau -2)
+Salle de restauration : L'Espace (niveau -2)",Lobby => Default,lobby_default
+10:00,10:30,10:00,10:45,Zurich Compagnie d'Assurances SA              Siège régional pour la Suisse romande,room-1192-A,Business - Cafétéria,HMP400,paysage,inventoryitem-5157-A,13,Cafétéria CdC Business - logo,https://millenniumopsignage.blob.core.windows.net/millennium-signage/RRG_logo_blanc2.png,,Paysage => Business - Cafétéria,paysage_cafet_business
+10:30,12:00,09:30,12:30,Zurich Compagnie d'Assurances SA              Siège régional pour la Suisse romande,room-1163-A,Business 4,HMP400,paysage,inventoryitem-1505-A,,SdC - logo,https://millenniumopsignage.blob.core.windows.net/millennium-signage/RRG_logo_blanc2.png,Bienvenue,,
+10:30,12:00,09:30,12:30,Zurich Compagnie d'Assurances SA              Siège régional pour la Suisse romande,room-1163-A,Business 4,HMP400,paysage,inventoryitem-1441-A,,iPad Loge/SdC - logo,https://millenniumopsignage.blob.core.windows.net/millennium-signage/RRG_logo_blanc2.png,RENAULT DACIA Suisse Romande (Mobilize/Zurich),,
+10:30,12:00,09:30,12:30,Zurich Compagnie d'Assurances SA              Siège régional pour la Suisse romande,room-1163-A,Business 4,HMP400,paysage,inventoryitem-1633-A,,Carousel CdC Business,https://millenniumopsignage.blob.core.windows.net/millennium-signage/RRG_logo_blanc2.png,"RENAULT DACIA Suisse Romande (Mobilize/Zurich)
+Business 4",,
+10:30,12:00,09:30,12:30,Zurich Compagnie d'Assurances SA              Siège régional pour la Suisse romande,room-1163-A,Business 4,HMP400,paysage,inventoryitem-1473-A,,Carousel Couloirs Parkings,https://millenniumopsignage.blob.core.windows.net/millennium-signage/RRG_logo_blanc2.png,"RENAULT DACIA Suisse Romande (Mobilize/Zurich)
+Centre de Conférences Business (niveau -1)",,
+10:30,12:00,09:30,12:30,Zurich Compagnie d'Assurances SA              Siège régional pour la Suisse romande,room-1163-A,Business 4,HMP400,paysage,inventoryitem-1442-A,,Carousel Lobby,https://millenniumopsignage.blob.core.windows.net/millennium-signage/RRG_logo_blanc2.png,"RENAULT DACIA Suisse Romande (Mobilize/Zurich)
+Centre de Conférences Business (niveau -1)",,
+11:55,14:00,09:30,14:30,Manufacture d'Horlogerie Audemars Piguet SA,room-1156-A,,,,inventoryitem-2946-A,56,iPad 5 - visuel complet,https://millenniumopsignage.blob.core.windows.net/millennium-visuels-events/06.18_AP_Cocktail%20d%C3%AEnatoire.png,,,
+11:55,14:00,09:30,14:30,Manufacture d'Horlogerie Audemars Piguet SA,room-1156-A,,,,inventoryitem-2722-A,50,iPad 2 (mini) - visuel complet,https://millenniumopsignage.blob.core.windows.net/millennium-visuels-events/06.18_AP_Boissons.png,,,
+11:55,14:00,09:30,14:30,Manufacture d'Horlogerie Audemars Piguet SA,room-1156-A,,,,inventoryitem-2755-A,58,iPad 6 - visuel complet,https://millenniumopsignage.blob.core.windows.net/millennium-visuels-events/06.18_AP_Cocktail%20d%C3%AEnatoire.png,,,
+11:55,14:00,09:30,14:30,Manufacture d'Horlogerie Audemars Piguet SA,room-1156-A,,,,inventoryitem-2754-A,48,iPad 1 (mini) - visuel complet,https://millenniumopsignage.blob.core.windows.net/millennium-visuels-events/06.18_AP_Boissons.png,,,
+12:00,13:30,09:30,14:00,Zurich Compagnie d'Assurances SA              Siège régional pour la Suisse romande,room-1634-A,,,,inventoryitem-5320-A,62,iPad 8 - visuel complet,https://millenniumopsignage.blob.core.windows.net/millennium-visuels-events/06.18_ZA_ap%C3%A9ritif%20gourmand.png,,,
+12:00,13:30,09:30,14:00,Zurich Compagnie d'Assurances SA              Siège régional pour la Suisse romande,room-1634-A,,,,inventoryitem-5318-A,60,iPad 7 - visuel complet,https://millenniumopsignage.blob.core.windows.net/millennium-visuels-events/06.18_ZA_ap%C3%A9ritif%20gourmand.png,,,
+12:00,13:00,09:30,14:00,Audemars Piguet (Marketing) SA,room-1115-A,,,,inventoryitem-2785-A,54,iPad 4 - visuel complet,https://millenniumopsignage.blob.core.windows.net/millennium-visuels-events/R%C3%A9serv%C3%A9%20Ipad%20AP.png,,,
+12:00,13:00,09:30,14:00,Audemars Piguet (Marketing) SA,room-1115-A,,,,inventoryitem-2978-A,52,iPad 3 - visuel complet,https://millenniumopsignage.blob.core.windows.net/millennium-visuels-events/R%C3%A9serv%C3%A9%20Ipad%20AP.png,,,
+16:30,19:30,15:30,20:00,AM Suisse,room-1161-A,Business 2,HMP400,paysage,inventoryitem-1505-A,4,SdC - visuel complet | SdC - logo,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AM%20Suisse.png,Bienvenue,,
+16:30,19:30,15:30,20:00,AM Suisse,room-1161-A,Business 2,HMP400,paysage,inventoryitem-1633-A,4,SdC - visuel complet | Carousel CdC Business,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AM%20Suisse.png,"Séance
+Business 2",,
+16:30,19:30,15:30,20:00,AM Suisse,room-1161-A,Business 2,HMP400,paysage,inventoryitem-1442-A,4,SdC - visuel complet | Carousel Lobby,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AM%20Suisse.png,"Séance
+Centre de Conférences Business (niveau -1)",,
+16:30,19:30,15:30,20:00,AM Suisse,room-1161-A,Business 2,HMP400,paysage,inventoryitem-1441-A,4,SdC - visuel complet | iPad Loge/SdC - logo,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AM%20Suisse.png,Séance,,
+16:30,19:30,15:30,20:00,AM Suisse,room-1161-A,Business 2,HMP400,paysage,inventoryitem-1473-A,4,SdC - visuel complet | Carousel Couloirs Parkings,https://millenniumopsignage.blob.core.windows.net/millennium-signage/AM%20Suisse.png,"Séance
+Centre de Conférences Business (niveau -1)",,

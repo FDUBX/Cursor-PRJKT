@@ -1,0 +1,190 @@
+;Date de rédaction;Rédaction;;;;;;;;;;;;;;;;;;;;;
+;18/06/2025;Johan Poiraudeau;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;"
+Formats vidéos :
+(HMP400/HMP400W) extension .mp4 ou .mov, codec H.264 (MPEG-4 AVC), framerate 60 FPS et bitrate 20 Mbp/s
+(iBX440) extension .mp4 ou .mov, codec H.265 (MPEG-H HEVC), framerate 60 FPS et bitrate 10 Mbp/s";;;;;;;;! .jpg .jpeg .png seulement pour les items (écrans) marqués d'un point d'exclamation. Si besoin de publier une vidéo sur ces écrans, consulter l'équipe technique audiovisuelle.;;;;;;;* .jpg .jpeg .png seulement pour les screens (écrans) marqués d'une astérisque (selon la priorité-type). Si besoin de publier une vidéo sur ces écrans, consulter l'équipe technique audiovisuelle.;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+AVL;;;Digital Signage/SpinetiX;;;;;;AVL;;Event/Momentus;;;;Marketing/Directus;;;N.B.;"Priority - Type ""Normal""";;;"Priority - Type ""Exclusive""";N.B.
+S/N;MAC LAN;MAC WiFi;#;Player Name;Player Type;Display;;;roomId;deviceTypeId;#;Item;;;#;Screen Text;Screen Value;;Low;Medium;High;Exclusive;
+X3L68HUY;;10A51D4B8DD1;1;4K LED Barriere Entree P1;HMP400W;512x128;;;;;;;;;30;Barrière Parking => Entrée P1;barriere_entree_p1;;?;;;?;
+X3L68HP2;;10A51D4B9691;2;4K LED Barriere Entree P2;HMP400W;512x128;;;;;;;;;31;Barrière Parking => Entrée P2;barriere_entree_p2;;?;;;?;
+X3L68RP7;;10A51D4A1672;3;4K LED Barriere Entree P3;HMP400W;512x128;;;;;;;;;32;Barrière Parking => Entrée P3;barriere_entree_p3;;?;;;?;
+X3468JGZ;;10A51D4B9830;4;4K LED Barriere Sortie P1;HMP400W;512x128;;;;;;;;;33;Barrière Parking => Sorties Parkings;barriere_sorties_parkings;;?;;;?;
+X3L68JB4;;10A51D4B03A7;5;4K LED Barriere Sortie P2;HMP400W;512x128;;;;;;;;;;;;;;;;;
+X3468HNK;;10A51D4B97A9;6;4K LED Barriere Sortie P3;HMP400W;512x128;;;;;;;;;;;;;;;;;
+X2L62TK5;001d50220331;Ø;7;4K LED Club;HMP400;3840x1280;;;;inventoryitem-3717-A;25;LE CLUB - LED - logo;;!;;;;;;;;;
+;;;;;;;;;;inventoryitem-3718-A;26;LE CLUB - LED - visuel complet;;!;;;;;;;;;
+X2L63C7C;001d50220545;Ø;8;4K LED Fontaine;HMP400;3840x295;;;;inventoryitem-2724-A;17;Fontaine - logo;;;28;Fontaine => Default;fontaine_default;;?;;;?;
+;;;;;;;;;;inventoryitem-2787-A;18;Fontaine - visuel complet;;;;;;;;;;;
+X24633VB;001d5022043b;Ø;9;4K LED Toit Nord 1;HMP400;3072x384;1536x;;;;;;;;;;;;;;;;
+X24633H4;001d5022042f;Ø;10;4K LED Toit Nord 2;HMP400;;1536x;;;;;;;;;;;;;;;;
+X2L62P2K;001d502202a0;Ø;11;4K LED Toit Sud 1;HMP400;3072x384;1536x;;;;;;;;;;;;;;;;
+X2462TZE;001d5022033f;Ø;12;4K LED Toit Sud 2;HMP400;;1536x;;;;;;;;;;;;;;;;
+00032d5980cc;;;13;8K LED Auditorium;iBX440;11264x2048;;;;inventoryitem-2533-A;23;LA SCÈNE - logo;;!;;;;;;;;;
+;;;;;;;;;;inventoryitem-2565-A;24;LA SCÈNE - visuel complet;;!;;;;;;;;;
+;;;;;;;;;;inventoryitem-1442-A;8;Carousel Lobby;;!;29;Lobby => Default;lobby_default;;?;;;?;
+00032d5980ca;;;14;8K LED Lobby;iBX440;7168x1280;;;;inventoryitem-2723-A;19;Lobby - logo;;;;;;;;;;;
+00032d5980ce;;;15;8K LED Lobby (Backup);iBX440;7168x1280;;;;inventoryitem-2786-A;20;Lobby - visuel complet;;;;;;;;;;;
+001d50230010;;;16;8K LED Lobby Ambilight;iBX440;7168x1280;;;;;;;;;;;;;;;;;
+001d5023008e;;;17;8K LED Verriere;iBX440;12896x620;;;;inventoryitem-5195-A;43;Verrière - LED - logo;;;35;Verriere Foreground => Default;foreground_default;;?;;;?;
+001d50230038;;;18;8K LED Verriere (Backup);iBX440;12896x620;;;;inventoryitem-5196-A;44;Verrière - LED - visuel complet;;;36;Verriere Background => Default;background_default;;?;;;?;
+001d5023001e;;;19;8K SVW Fitness;iBX440;3870x1080;55;19;;;;;;;34;Carousel Fitness => Default;fitness_default;*;?;;;?;
+001d50230036;;;20;8K Reception;iBX440;1366x768;;;;;;;;;1;Paysage => Default;paysage_default;;?;;;?;*
+X2L633JE;001d50220430;Ø;21;Auditorium - Loge 1;HMP400;paysage;;;room-1110-A;+;;;;;;;;;;;;;
+X24653WR;001d50220c3c;Ø;22;Auditorium - Loge 2;HMP400;paysage;;;room-1111-A;+;;;;;;;;;;;;;
+X2L63TUX;001d5022073a;Ø;23;Auditorium - Loge 3;HMP400;paysage;;;room-1112-A;+;;;;;;;;;;;;;
+X2464ZH9;001d50220bef;Ø;24;Auditorium - Loge 4;HMP400;paysage;;;room-1113-A;+;;;;;;;;;;;;;
+X2L64ZJB;001d50220bf0;Ø;25;Auditorium - Loge 5;HMP400;paysage;;;room-1114-A;+;;;;;;;;;;;;;
+X2L63BBY;001d50220529;Ø;26;Auditorium - Loges - Couloir Nord 1;HMP400;paysage;;;;;;;;;;;;;;;;;
+X2469VUP;001d50221f7a;Ø;27;Auditorium - Loges - Couloir Nord 2 (Cour);HMP400;paysage;;;;;;;;;;;;;;;;;
+X2L6388Z;001d502204c6;Ø;28;Auditorium - Loges - Couloir Sud 1;HMP400;paysage;;;;;;;;;;;;;;;;;
+X2L69W3H;001d50221f81;Ø;29;Auditorium - Loges - Couloir Sud 2 (Jardin);HMP400;paysage;;;;;;;;;;;;;;;;;
+X2L62TBJ;001d50220329;Ø;30;Ballroom;HMP400;paysage;;;;inventoryitem-1889-A;21;L'ESPACE - logo;;!;;;;;;;;;
+;;;;;;;;;;inventoryitem-5194-A;22;L'ESPACE - visuel complet;;!;;;;;;;;;
+X34682EX;;;31;Navette (WiFi);HMP400W;paysage;;;;;;;;;;;;;;;;?;
+X2L62UKH;001d50220351;Ø;32;Car Wash Paysage;HMP400;paysage;;;;;;;;;16;Paysage => Car Wash Paysage;paysage_entree_car_wash;;?;;;?;*
+X2L62J8B;001d50220206;Ø;33;Car Wash Portrait;HMP400;portrait;;;;;;;;;17;Portrait => Car Wash Portrait;portrait_entree_car_wash;;?;;;?;*
+X2L63TDW;001d5022072b;Ø;34;Coiffeur Paysage;HMP400;paysage;;;;;;;;;;;;;;;;;
+X2L63KXJ;001d5022063d;Ø;35;Coiffeur Portrait;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2L62LWQ;001d5022025c;Ø;36;Couloir Nord E0-2;HMP400;portrait;;;;;;;;;18;Portrait => Default;portrait_default;;?;;;?;*
+X2L62LTW;001d50220259;Ø;37;Couloir Nord E0-1 (Creche);HMP400;portrait;;;;;;;;;22;Portrait => Crèche;portrait_creche;;?;;;?;*
+X2L635L2;001d50220472;Ø;38;Couloir Centre E0;HMP400;paysage;;;;;;;;;13;Paysage => Couloir Centre E0;paysage_couloir_centre_e0;;?;;;?;*
+X2L62U5A;001d50220343;Ø;39;Couloir Nord S1-1 (Fitness);HMP400;portrait;;;;;;;;;23;Portrait => Fitness;portrait_fitness;;?;;;?;*
+X2462J9S;001d50220207;Ø;40;Golf TV;HMP400;paysage;;;;inventoryitem-5253-A;35;Golf & Play TV - logo;;!;4;Paysage => Golf;paysage_golf;;?;;;?;*
+;;;;;;;;;;inventoryitem-5254-A;36;Golf & Play TV - visuel complet;;!;;;;;;;;;
+X2469W2Y;001d50221f80;Ø;41;Golf VP;HMP400;paysage;;;;inventoryitem-5255-A;37;Golf & Play VP - logo;;!;;;;;;;;;
+;;;;;;;;;;inventoryitem-5256-A;38;Golf & Play VP - visuel complet;;!;;;;;;;;;
+X2463BDB;001d5022052b;Ø;42;Monte Charge Nord;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2L638V8;001d502204db;Ø;43;Monte Charge Sud;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2462TU8;001d5022033a;Ø;44;Pressing;HMP400;portrait;;;;;;;;;24;Portrait => Pressing;portrait_pressing;;?;;;?;*
+X2L638B3;001d502204c9;Ø;45;Ascenseur 1;HMP400;portrait;;;;;;;;;20;Portrait => Ascenseurs;portrait_ascenseurs;;?;;;?;*
+X2463ASA;001d50220518;Ø;46;Ascenseur 2;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2L63BYM;001d5022053e;Ø;47;Ascenseur 3;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2L638KL;001d502204d1;Ø;48;Ascenseur 4;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2L638RY;001d502204d7;Ø;49;Ascenseur 5;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2L6548Z;001d50220c46;Ø;50;Ascenseur 6;HMP400;portrait;;;;;;;;;;;;;;;;;
+X24638M7;001d502204d3;Ø;51;Ascenseur 7;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2463B3X;001d50220521;Ø;52;Ascenseur 8;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2462LSF;001d50220258;Ø;53;Couloir Sud S1-2 (Business - Accueil);HMP400;portrait;;;;inventoryitem-1633-A;5;Carousel CdC Business;;!;;;;;;;;;
+;;;;;;;;;;inventoryitem-5190-A;9;CdC Business - logo;;!;;;;;;;;;
+;;;;;;;;;;inventoryitem-5191-A;10;CdC Business - visuel complet;;!;;;;;;;;;
+X2L62F5L;001d502201a3;Ø;54;Business - Cafétéria;HMP400;paysage;;;;inventoryitem-5157-A;13;Cafétéria CdC Business - logo;;!;14;Paysage => Business - Cafétéria;paysage_cafet_business;;?;;;?;*
+;;;;;;;;;;inventoryitem-1699-A;14;Cafétéria CdC Business - visuel complet;;!;;;;;;;;;
+;;;;;;;;;+;inventoryitem-1441-A;1;iPad Loge/SdC - logo;;;;;;;;;;;
+;;;;;;;;;+;inventoryitem-5349-A;2;iPad Loge/SdC - visuel complet;;;;;;;;;;;
+X2L63C8E;001d50220546;Ø;55;Business 1;HMP400;paysage;;;room-1160-A;inventoryitem-1505-A;3;SdC - logo;;;;;;;;;;;
+X2463C6V;001d50220544;Ø;56;Business 2;HMP400;paysage;;;room-1161-A;inventoryitem-5189-A;4;SdC - visuel complet;;;;;;;;;;;
+X2L63CBL;001d50220549;Ø;57;Business 3;HMP400;paysage;;;room-1162-A;-;;-;;;;;;;;;;;
+X2L63KVW;001d5022063b;Ø;58;Business 4;HMP400;paysage;;;room-1163-A;-;;-;;;;;;;;;;;
+X2463C4R;001d50220542;Ø;59;Business 5;HMP400;paysage;;;room-1164-A;-;;-;;;;;;;;;;;
+X2463C9X;001d50220547;Ø;60;Business 6;HMP400;paysage;;;room-1165-A;-;;-;;;;;;;;;;;
+X2L63CCN;001d5022054a;Ø;61;Business 7;HMP400;paysage;;;room-1174-A;-;;-;;;;;;;;;;;
+X2L63C22;001d50220540;Ø;62;Business 8;HMP400;paysage;;;room-1181-A;-;;-;;;;;;;;;;;
+X2463B4V;001d50220522;Ø;63;Executive 1;HMP400;paysage;;;room-1167-A;-;;-;;;;;;;;;;;
+X24639RB;001d502204f7;Ø;64;Executive 2;HMP400;paysage;;;room-1157-A;-;;-;;;;;;;;;;;
+X2463A8R;001d50220506;Ø;65;Executive 3;HMP400;paysage;;;room-1158-A;-;;-;;;;;;;;;;;
+X2463AH7;001d5022050f;Ø;66;Executive 4;HMP400;paysage;;;room-1168-A;-;;-;;;;;;;;;;;
+X2L63BCS;001d5022052a;Ø;67;Executive 5_A - Accueil;HMP400;paysage;;;;inventoryitem-5192-A;11;CdC Executive - logo;;!;;;;;;;;;
+;;;;;;;;;;inventoryitem-5193-A;12;CdC Executive - visuel complet;;!;;;;;;;;;
+X2L63BVT;001d5022053b;Ø;68;Executive 5_B;HMP400;paysage;;;;inventoryitem-1634-A;6;Carousel CdC Executive;;!;15;Paysage => Executive B;paysage_6e_centre;;?;;;?;*
+X2L62TCQ;001d5022032a;Ø;69;Couloir Centre S2-1;HMP400;paysage;;;;inventoryitem-2534-A;45;Vestiaire S2 - logo;;!;7;Paysage => Vestiaire S2;paysage_vestiaire_s2;;?;;;?;*
+X2L62FC2;001d502201aa;Ø;70;Couloir Centre S2-2;HMP400;paysage;;;;inventoryitem-2566-A;46;Vestiaire S2 - visuel complet;;!;;;;;;;;;
+X2L62TSK;001d50220338;Ø;71;Couloir Centre S3;HMP400;portrait;;;;inventoryitem-1473-A;7;Carousel Couloirs Parkings;;!;21;Portrait => Couloirs Parkings;portrait_sortie_parking;;?;;;?;
+X2462MQP;001d50220276;Ø;72;Couloir Nord S1-2;HMP400;portrait;;;;inventoryitem-2535-A;15;Couloirs Parkings - logo;;!;;;;;;;;;
+X2L62TXV;001d5022033d;Ø;73;Couloir Nord S2-1;HMP400;portrait;;;;inventoryitem-2536-A;16;Couloirs Parkings - visuel complet;;!;;;;;;;;;
+X2462H2H;001d502201e0;Ø;74;Couloir Nord S2-2;HMP400;portrait;;;;-;;-;;;;;;;;;;;
+X2462GAV;001d502201c8;Ø;75;Couloir Nord S3-1;HMP400;portrait;;;;-;;-;;;;;;;;;;;
+X2L62GH8;001d502201cf;Ø;76;Couloir Nord S3-2;HMP400;portrait;;;;-;;-;;;;;;;;;;;
+X2462UMS;001d50220353;Ø;77;Couloir Sud S1-1;HMP400;portrait;;;;-;;-;;;;;;;;;;;
+X2462U3Z;001d50220341;Ø;78;Couloir Sud S1-3;HMP400;portrait;;;;-;;-;;;;;;;;;;;
+X2L62JBR;001d50220209;Ø;79;Couloir Sud S2-1;HMP400;portrait;;;;-;;-;;;;;;;;;;;
+X2L62TEU;001d5022032c;Ø;80;Couloir Sud S2-2;HMP400;portrait;;;;-;;-;;;;;;;;;;;
+X2L62FEE;001d502201ac;Ø;81;Couloir Sud S3-1;HMP400;portrait;;;;-;;-;;;;;;;;;;;
+X24634V7;001d5022045b;Ø;82;Couloir Sud S3-2;HMP400;portrait;;;;-;;-;;;;;;;;;;;
+X2L633TY;001d50220439;Ø;83;Club - Loge 1;HMP400;paysage;;;room-1173-A;+;;;;;8;Paysage => Club - Loges;paysage_club_loges;;?;;;?;*
+X2L62GY9;001d502201de;Ø;84;Club - Loge 2;HMP400;paysage;;;room-1761-A;+;;;;;;;;;;;;;
+X2469U28;001d50221f40;Ø;85;Club - Entree Escalier;HMP400;paysage;;;;inventoryitem-3750-A;27;LE CLUB - Entrée Escalier - logo;;!;9;Paysage => Club - Entrée Escalier;paysage_club_entree_escalier;;?;;;?;*
+;;;;;;;;;;inventoryitem-3877-A;28;LE CLUB - Entrée Escalier - visuel complet;;!;;;;;;;;;
+X2L62FHC;001d502201af;Ø;86;Club - Mezzanine;HMP400;paysage;;;;inventoryitem-3719-A;29;LE CLUB - Mezzanine - logo;;!;10;Paysage => Club - Mezzanine;paysage_club_mezzanine;;?;;;?;*
+;;;;;;;;;;inventoryitem-3909-A;30;LE CLUB - Mezzanine - visuel complet;;!;;;;;;;;;
+X2464ZCF;001d50220bea;Ø;87;Club - Totem P0;HMP400;paysage;;;;inventoryitem-3749-A;31;LE CLUB - Totem P0 - logo;;!;11;Paysage => Club - Totem P0;paysage_club_ext_p0;;?;;;?;*
+;;;;;;;;;;inventoryitem-3941-A;32;LE CLUB - Totem P0 - visuel complet;;!;;;;;;;;;
+X2462GWJ;001d502201dc;Ø;88;Club - Vestiaire;HMP400;paysage;;;;inventoryitem-3751-A;33;LE CLUB - Vestiaire - logo;;!;12;Paysage => Club - Vestiaire;paysage_club_vestiaire;;?;;;?;*
+;;;;;;;;;;inventoryitem-3878-A;34;LE CLUB - Vestiaire - visuel complet;;!;;;;;;;;;
+X2463CD7;001d5022054b;Ø;89;Totem P-Halle;HMP400;portrait;;;;;;;;;;;;;?;;;?;*
+X246342J;001d50220440;Ø;90;Totem P0 Face 2 (Entree);HMP400;portrait;;;;;;;;;25;Portrait => Totem P0 Entrée;portrait_entree_p0;;?;;;?;
+X2L62LUU;001d5022025a;Ø;91;Totem P0 Face 1 (Sortie);HMP400;portrait;;;;;;;;;26;Portrait => Totem P0 Sortie;portrait_sortie_p0;;?;;;?;
+X3467D9W;;5C879C117D6C;92;Totem P1 (WiFi);HMP400W;portrait;;;;;;;;;;;;;;;;;
+X2L64YXR;001d50220bdd;Ø;93;Totem P2;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2464ZBD;001d50220be9;Ø;94;Totem P3;HMP400;portrait;;;;;;;;;;;;;;;;;
+X24633X7;001d5022043d;Ø;95;(Restaurant) Brasserie;HMP400;portrait;;;;;;;;;27;Portrait => Brasserie;portrait_brasserie;;?;;;?;
+X2462TJL;001d50220330;Ø;96;(Restaurant) Cafe;HMP400;paysage;;;;inventoryitem-2567-A;39;Café - logo;;;5;Paysage => Café;paysage_cafe;;?;;;?;
+;;;;;;;;;;inventoryitem-2506-A;40;Café - visuel complet;;;;;;;;;;;
+X2L64ZDW;001d50220beb;Ø;97;(Restaurant) Verriere Nord;HMP400;paysage;;;;inventoryitem-5669-A;41;Verrière - logo;;!;6;Paysage => Verrière;paysage_verriere;;?;;;?;*
+X2L62MLG;001d50220272;Ø;98;(Restaurant) Verriere Sud;HMP400;paysage;;;;inventoryitem-5670-A;42;Verrière - visuel complet;;!;;;;;;;;;
+;;;;;;;;;;inventoryitem-1537-A;47;iPad 1 (mini) - logo;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-2754-A;48;iPad 1 (mini) - visuel complet;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-1572-A;49;iPad 2 (mini) - logo;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-2722-A;50;iPad 2 (mini) - visuel complet;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-2903-A;51;iPad 3 - logo;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-2978-A;52;iPad 3 - visuel complet;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-1729-A;53;iPad 4 - logo;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-2785-A;54;iPad 4 - visuel complet;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-2904-A;55;iPad 5 - logo;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-2946-A;56;iPad 5 - visuel complet;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-2241-A;57;iPad 6 - logo;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-2755-A;58;iPad 6 - visuel complet;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-5317-A;59;iPad 7 - logo;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-5318-A;60;iPad 7 - visuel complet;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-5319-A;61;iPad 8 - logo;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-5320-A;62;iPad 8 - visuel complet;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-1698-A;0;Signalétique manuelle;;;;;;;;;;;
+X2465434;001d50220c41;Ø;99;Bureau de Production;HMP400;paysage;;;;;;;;;;;;;;;;;
+X3L67K94;;;100;Bureau Event (WiFi);HMP400W;paysage;;;;inventoryitem-4453-A;63;Bureau Event - logo;;;;;;;;;;;
+;;;;;;;;;;inventoryitem-4422-A;64;Bureau Event - visuel complet;;;;;;;;;;;
+X3467KLS;;;101;Bureau Marketing (WiFi);HMP400W;paysage;;;;;;;;;3;Paysage => Bureau Marketing;paysage_marketing_test;;?;;;?;
+X3L67KJH;;;102;Event iiyama (WiFi);HMP400W;paysage;;;;;;;;;;;;;;;;;
+X3L67EF9;;;103;Event Panasonic 1 (WiFi);HMP400W;paysage;;;;;;;;;;;;;;;;;
+X3L67L46;;;104;Event Panasonic 2 (WiFi);HMP400W;paysage;;;;;;;;;;;;;;;;;
+X2L69VYG;001d50221f7e;Ø;105;Coralie;HMP400;paysage;;;;;;;;;;;;;;;;;
+X24633KX;001d50220431;Ø;106;E2 Nord IT 1;HMP400;paysage;;;;;;;;;;;;;;;;;
+X2L63UTR;001d50220759;Ø;107;E2 Nord IT 2;HMP400;paysage;;;;;;;;;;;;;;;;;
+X2463ULL;001d50220752;Ø;108;E2 Nord IT 3;HMP400;paysage;;;;;;;;;;;;;;;;;
+X246ABA3;001d50222128;Ø;109;Lab Dev BenQ Paysage;HMP400;paysage;;;;;;;;;;;;;;;;;
+X2469UXZ;001d50221f5d;Ø;110;Lab Dev BenQ Portrait;HMP400;portrait;;;;;;;;;;;;;;;;;
+X2L62G5Y;001d502201c3;Ø;111;Lab Dev Paysage;HMP400;paysage;;;;;;;;;2;Paysage => Dev;paysage_dev;;…;;;…;
+X2L62HG2;001d502201ee;Ø;112;Lab Dev Portrait;HMP400;portrait;;;;;;;;;19;Portrait => Dev;portrait_dev;;…;;;…;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;Animated;;refresh;shuffle;defaultSlideDur;/
+;;;;;;;;;;;;;;;;(Normal) Barriere;;No;;60;true;12s;60s
+;;;;;;;;;;;;;;;;(Normal) Fontaine;;No;;60;true;12s;60s
+;;;;;;;;;;;;;;;;(Normal) Lobby;;No;;60;true;12s;240s
+;;;;;;;;;;;;;;;;(Normal) Paysage;;No;;60;true;12s;
+;;;;;;;;;;;;;;;;(Normal) Portrait;;No;;60;true;12s;
+;;;;;;;;;;;;;;;;(Exclusive) Barriere;;No;;60;true;20s;
+;;;;;;;;;;;;;;;;(Exclusive) Fontaine;;No;;60;true;20s;
+;;;;;;;;;;;;;;;;(Exclusive) Lobby;;No;;60;true;20s;
+;;;;;;;;;;;;;;;;(Exclusive) Paysage;;No;;60;true;20s;
+;;;;;;;;;;;;;;;;(Exclusive) Portrait;;No;;60;true;20s;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;

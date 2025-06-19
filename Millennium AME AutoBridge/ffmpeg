@@ -1,0 +1,13 @@
+        ffmpeg_cmd = [
+            'ffmpeg',
+            '-i', input_path,
+            '-vf', f'[0:v]split[base][lut];[lut]lut3d={self.lut_path}[lut];[base][lut]blend=all_expr=\'A*(1-0.4)+B*0.4\'',
+            '-c:v', 'libx265',
+            '-preset', 'medium',  # Le preset le plus rapide
+            '-b:v', '7M',  # Débit cible de 7 Mb/s
+            '-threads', '0',  # Utilise 32 threads (optimisé pour M2 Ultra)
+            '-x265-params', 'pools=32:frame-threads=16',  # Optimisations de base pour le multi-threading
+            '-pix_fmt', 'yuv420p',  # Format 8-bit pour plus de vitesse
+            '-tag:v', 'hvc1',  # Tag pour compatibilité Apple
+            output_path
+        ]

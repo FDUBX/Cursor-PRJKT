@@ -1,0 +1,166 @@
+-------------------------------------------------------------------
+
+weekDays = {"Monday", "Thuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}
+
+hourTable = {"01","02","03","04","05","06","07","08","09"}
+minuteTable = {"00", "05"}
+
+for i = 10, 23, 1 do 
+  table.insert(hourTable, i)
+end
+
+for i = 10, 55, 5 do 
+  table.insert(minuteTable, i)
+end
+
+for i = 1, #Controls["powerOnHour"], 1 do 
+  Controls["powerOnHour"][i].Choices = hourTable
+  Controls["powerOffHour"][i].Choices = hourTable
+end 
+
+for i = 1, #Controls["powerOnMinute"], 1 do 
+  Controls["powerOnMinute"][i].Choices = minuteTable
+  Controls["powerOffMinute"][i].Choices = minuteTable
+end 
+
+-------------------------------------------------------------------
+
+Controls["time"].EventHandler = function()
+  checkOnScheduled()
+  checkOffScheduled()
+  for k,v in ipairs(weekDays) do
+    if Controls["currentDay"].String == v then
+      updateTiming(k)
+    end
+  end
+end
+
+function updateTiming(currentDay)
+  Controls["powerOnTime"].String = Controls["powerOnHour"][currentDay].String .. ":" .. Controls["powerOnMinute"][currentDay].String .. ":00"
+  Controls["powerOffTime"].String = Controls["powerOffHour"][currentDay].String .. ":" .. Controls["powerOffMinute"][currentDay].String .. ":00"
+end 
+
+-------------------------------------------------------------------
+
+function powerOn()
+  print("###################     ON    ####################")
+  postLog("# ON #   >>   " .. Controls['currentDay'].String .."  ".. Controls['time'].String)
+  Controls["powerBoolean"].Boolean = true 
+  Controls["triggerOn"].Boolean = true 
+  Timer.CallAfter(
+    function()
+      Controls["triggerOn"].Boolean = false 
+    end,
+    1
+  )
+end  
+
+function powerOff()
+  print("###################     OFF    ####################")
+  postLog("# OFF #   >>   " .. Controls['currentDay'].String .."  ".. Controls['time'].String)
+  Controls["powerBoolean"].Boolean = false 
+  Controls["triggerOff"].Boolean = true 
+  Timer.CallAfter(
+    function()
+      Controls["triggerOff"].Boolean = false 
+    end,
+    1
+  )
+end  
+
+-------------------------------------------------------------------
+
+function checkOnScheduled()
+  if Controls["powerOnTime"].String == Controls["time"].String then
+    if Controls['currentDay'].String == 'Monday' then
+      if Controls['weekDays'][1].Boolean then
+        powerOn()
+        print("POWER ON " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Tuesday' then
+      if Controls['weekDays'][2].Boolean then
+        powerOn()
+        print("POWER ON " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Wednesday' then
+      if Controls['weekDays'][3].Boolean then
+        powerOn()
+        print("POWER ON " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Thursday' then
+      if Controls['weekDays'][4].Boolean then
+        powerOn()
+        print("POWER ON " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Friday' then
+      if Controls['weekDays'][5].Boolean then
+        powerOn()
+        print("POWER ON " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Saturday' then
+      if Controls['weekDays'][6].Boolean then
+        powerOn()
+        print("POWER ON " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Sunday' then
+      if Controls['weekDays'][7].Boolean then
+        powerOn()
+        print("POWER ON " .. Controls["time"].String)
+      end
+    end
+  end 
+end 
+
+function checkOffScheduled()
+  if Controls["powerOffTime"].String == Controls["time"].String then
+    if Controls['currentDay'].String == 'Monday' then
+      if Controls['weekDays'][1].Boolean then
+        powerOff()
+        print("POWER OFF " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Tuesday' then
+      if Controls['weekDays'][2].Boolean then
+        powerOff()
+        print("POWER OFF " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Wednesday' then
+      if Controls['weekDays'][3].Boolean then
+        powerOff()
+        print("POWER OFF " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Thursday' then
+      if Controls['weekDays'][4].Boolean then
+        powerOff()
+        print("POWER OFF " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Friday' then
+      if Controls['weekDays'][5].Boolean then
+        powerOff()
+        print("POWER OFF " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Saturday' then
+      if Controls['weekDays'][6].Boolean then
+        powerOff()
+        print("POWER OFF " .. Controls["time"].String)
+      end
+    elseif Controls['currentDay'].String == 'Sunday' then
+      if Controls['weekDays'][7].Boolean then
+        powerOff()
+        print("POWER OFF " .. Controls["time"].String)
+      end
+    end
+  end 
+end 
+
+
+Controls["testButton"].EventHandler = function()
+  if Controls["testButton"].Boolean == true then 
+    powerOn()
+  else 
+    powerOff()
+  end
+end
+
+function postLog(str)
+  Controls["log"].String = str
+end
